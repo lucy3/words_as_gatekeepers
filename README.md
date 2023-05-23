@@ -2,4 +2,6 @@
 
 Code, along with lists of discipline-specific words and senses, forthcoming.
 
+Current ETA is end of May.
+
 If you need these materials sooner, please email lucy3 [underscore] li [at] berkeley (dot) edu
