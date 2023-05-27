@@ -2,10 +2,21 @@
 
 License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Discipline-Specific Words and Senses
+**Authors**: Li Lucy, Jesse Dodge, David Bamman, Katherine A. Keith
+
+**[Paper](https://arxiv.org/abs/2212.09676)**, **[Blog post](https://blog.allenai.org/words-as-gatekeepers-measuring-discipline-specific-terms-and-meanings-in-scholarly-publications-718dc56d08a5)**
+
+**Abstract**: Scholarly text is often laden with jargon, or specialized language that can facilitate efficient in-group communication within fields but hinder understanding for out-groups. In this work, we develop and validate an interpretable approach for measuring scholarly jargon from text. Expanding the scope of prior work which focuses on word types, we use word sense induction to also identify words that are widespread but overloaded with different meanings across fields. We then estimate the prevalence of these discipline-specific words and senses across hundreds of subfields, and show that word senses provide a complementary, yet unique view of jargon alongside word types. We demonstrate the utility of our metrics for science of science and computational sociolinguistics by highlighting two key social implications. First, though most fields reduce their use of jargon when writing for general-purpose venues, and some fields (e.g., biological sciences) do so less than others. Second, the direction of correlation between jargon and citation rates varies among fields, but jargon is nearly always negatively correlated with interdisciplinary impact. Broadly, our findings suggest that though multidisciplinary venues intend to cater to more general audiences, some fields' writing norms may act as barriers rather than bridges, and thus impede the dispersion of scholarly ideas.
+
+## Scholarly jargon
+
+### Discipline-specific word senses
 
 - `logs/word_clusters_lemmed/0.0/` includes senses and their top predicted substitutes. Use the `Word Cluster Analysis` notebook in the code folder to inspect the content of these files. 
 - `logs/fos_senses/es-True_res-0.0/` includes senses and their npmi scores in each field
+
+### Discipline-specific word types 
+
 - `logs/type_npmi/fos_set-False_lemma-True/` includes lists of word types in each subfield and their npmi scores
 
 ## Code pipeline
