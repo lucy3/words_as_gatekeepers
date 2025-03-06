@@ -35,6 +35,10 @@ Information on accessing S2ORC can be found [here](https://github.com/allenai/s2
 - `data_preprocessing.py`: determine how many abstracts we have per journal, also outputs dataframe of paper IDs to journal and FOS to support dataset creation
 - `General Dataset Statistics.ipynb`: examine the distribution of journal counts, save lists of paper IDs to keep for journal and FOS analysis. This generates `s2orc_fos.json`
 
+The `paper_ids` that compose contemporary S2ORC can be found [here](https://drive.google.com/file/d/12JvkiuOhcvJJUSWqATBno4dA4vjJgfB5/view?usp=sharing). It is used by the `get_journal_venue` function in [this file](https://github.com/lucy3/words_as_gatekeepers/blob/main/code/type_jargon/helper.py) to filter for paper IDs to keep. 
+
+A mapping from paper IDs to MAG fields of study can be found [here](https://drive.google.com/file/d/19ZGYPV31-CteYY8TNMq0yqBDpWburI3J/view?usp=sharing). 
+
 **Word type pipeline**
 
 In the `type_jargon` folder: 
